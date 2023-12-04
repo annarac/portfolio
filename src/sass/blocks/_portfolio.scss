@@ -1,0 +1,42 @@
+.portfolio {
+    min-height: 100vh;
+    position: relative;
+    background-color:  #1f1f1d;
+    &__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    &__img {
+        filter: grayscale(100%);
+        margin-top: 30px;
+    }
+}
+.line1, .line3 {
+    background-color: $main-color;
+    height: 2px;
+    max-width: 570px;
+    margin-bottom: 20px;
+}
+.line3 {
+    margin-left: 570px;
+}
+.line2 {
+    background-color: #fff;
+    height: 2px;
+    max-width: 1140px;
+    margin-bottom: 20px;
+}
+.rotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    div {
+        
+        margin-right: 20px;
+        img {
+            height: 250px;
+            border: double 3px ;
+        }
+    }
+}

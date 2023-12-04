@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    width: 50%;
+}
+nav {
+    height: 50px;
+}
+.hamburder {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 13px 70px;
+    &__item {
+        color: #fff;
+		font-size: 15px;
+		font-weight: 300;
+		text-decoration: none;
+    }    
+    &__link{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
+
+	

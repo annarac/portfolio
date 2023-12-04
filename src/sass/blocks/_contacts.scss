@@ -1,0 +1,59 @@
+.contacts {
+    min-height: 100vh;
+    position: relative;
+    background-color:  #1f1f1d;
+    &__container {
+        max-width: 1140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px 20px;
+        position: relative;
+    }
+    &__box {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        &_social {
+            height: 50px;
+            transform: rotate(90deg);
+            filter: brightness(0) saturate(100%) invert(75%) sepia(76%) saturate(657%) hue-rotate(357deg) brightness(101%) contrast(108%);
+            &_tg {
+                transform: none;
+            }
+        }
+    }
+    &__text a {
+        font-size: 22px;
+        font-weight: 100;
+        color: $main-color;
+        margin-bottom: 0;
+        display: block;
+        text-align: center;
+    }
+    &__text h3 {
+        font-size: 26px;
+        font-weight: 400;
+        color: $main-color;
+        text-align: center;
+    }
+    &__line {
+        display: flex;
+        height: 2px;
+        width: 400px;
+        background: $main-color;
+    }
+}
+input, select, textarea{
+    color: $main-color;
+}

@@ -1,0 +1,39 @@
+.title {
+    color: #fff;
+    font-family: 'Mochiy Pop One';
+    &__descr, &__about {
+        font-size: 25px;
+        margin-top: 30px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        background: linear-gradient(to right, $main-color, $main-color 50%, white 50%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% 100%;
+        background-position: 100%;
+        transition: background-position 3s ease;
+        &:hover {
+            background-position: 0 100%;
+        }
+    }
+    &__about {
+        font-family: 'Mochiy Pop One';
+    }
+    &__box {
+        position: absolute;
+        bottom: 10%;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: 'Poppins';
+        font-style: italic;
+    }
+    &__services, &__portfolio, &__contacts {
+        text-align: center;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+}

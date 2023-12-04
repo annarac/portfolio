@@ -1,0 +1,37 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background:  #1f1f1d;
+    &__container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 50px;
+        line-height: 50px;
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__img {
+        display: flex;
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 400px;
+    }
+    &__btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20%;
+        margin-top: 100px;
+    }
+}
+
+
+

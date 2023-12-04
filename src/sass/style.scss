@@ -1,0 +1,39 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;400&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/sidepenal';
+@import 'blocks/menu';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/services';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
+@import 'blocks/media';
